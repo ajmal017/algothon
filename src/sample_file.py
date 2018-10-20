@@ -13,7 +13,7 @@ model.compile(loss='mse', optimizer='sgd', metrics=['accuracy'])
 
 API_KEY = "3ppcK5PSDfRn7osHWktG"
 
-quandl.ApiConfig.api_key = '3ppcK5PSDfRn7osHWktG'
+quandl.ApiConfig.api_key = API_KEY
 data = quandl.get_table('SMA/FBD' , brand_ticker='MCD')
 
 #quandl.ApiConfig.api_key = API_KEY
